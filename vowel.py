@@ -1,6 +1,6 @@
-d=str(raw_input())
-if(d.isalpha()):
-   if(d=="a" or d=="e" or d=="i" or d=="o" or d=="u" ):
+c=str(raw_input())
+if(c.isalpha()):
+   if(c=="a" or c=="e" or c=="i" or c=="o" or c=="u" ):
         print("Vowel")
    else:
         print("consonant")
