@@ -1,7 +1,7 @@
-number = int(input("Please Enter any Number: "))
-total = 0
-
-for value in range(1, number + 1):
-    total = total + value
-
-print("The Sum of Natural Numbers from 1 to {0} =  {1}".format(number, total))
+s=int(raw_input())
+sum=0
+i=1
+while i<=s:
+    sum=sum+i
+    i=i+1
+print(sum)    
