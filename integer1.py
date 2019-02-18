@@ -1,6 +1,6 @@
-f=int(input())
+a=int(input())
 count=0
-while(f>0):
+while(a>0):
     count=count+1
-    f=f//10
+    a=a//10
 print(count)
