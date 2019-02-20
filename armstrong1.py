@@ -10,7 +10,7 @@ for num in range(lower+1,upper):
        sum += digit ** order
        temp //= 10
    if num == sum:
-       print(num)
+       print num,
        
        
  
